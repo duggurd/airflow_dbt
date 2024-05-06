@@ -1,0 +1,12 @@
+testing:
+  outputs:
+    dev:
+      dbname: postgres
+      host: testing.com
+      pass: dev
+      port: 5432
+      schema: public
+      threads: 1
+      type: postgres
+      user: dev
+  target: dev
